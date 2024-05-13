@@ -169,4 +169,7 @@ footer img {
   .grid-container {
     background-color: #ffffff;
   }
+  .cardwrapper {
+    grid-template-columns: repeat(4,1fr);
+  }
 }
