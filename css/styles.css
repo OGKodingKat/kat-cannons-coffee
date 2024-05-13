@@ -141,6 +141,10 @@ footer img {
   margin-top: 2rem;
   padding: 0;
 }
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 @media (min-width: 650px) {
   .cardwrapper {
@@ -151,7 +155,11 @@ footer img {
   h1 {
     font-size: 3rem;
   }
+  .card-container {
+    grid-template-columns: repeat(2,1fr);
+  }
 }
+
 @media (min-width: 1000px) {
   body {
     background-color: #06327d;
@@ -170,6 +178,9 @@ footer img {
     background-color: #ffffff;
   }
   .cardwrapper {
+    grid-template-columns: repeat(4,1fr);
+  }
+  .card-container {
     grid-template-columns: repeat(4,1fr);
   }
 }
