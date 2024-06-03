@@ -1,8 +1,9 @@
 const burger = document.querySelector(".burger i");
 const nav = document.querySelector(".nav");
-console.log(nav);
+console.log(burger);
 
 function showHamburger() {
-  burger.classList.toggle("fa-times");
+    console.log("clicked")
+//   burger.classList.toggle("fa-times");
   nav.classList.toggle("nav-active");
 }

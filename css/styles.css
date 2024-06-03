@@ -182,7 +182,7 @@ footer img {
     color:black;
   }
   button {
-    position:absolute;
+    position:relative;
     right:15px;
     top:158px;
     background-color:#06327c;
