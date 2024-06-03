@@ -155,7 +155,7 @@ footer img {
   display: block;
 }
 @media (max-width:649px){
-  .nav {
+.nav {
   margin: 0;
   background: #ffd033;
   position: absolute;
