@@ -57,7 +57,7 @@ header {
   gap: 1rem;
 }
 
-nav {
+.nav {
   display: flex;
   flex-flow: row;
   justify-content: center;
@@ -165,6 +165,8 @@ footer img {
   gap:25px;
   padding:0;
   transition: all 600ms;
+  display: flex;
+  flex-direction: column;
 }
 .nav-active {
   right: 0;
@@ -173,11 +175,7 @@ footer img {
   text-align: center;
   margin:5px;
 }
-  ul {
-    display: flex;
-    flex-direction: column;
-    
-  }
+  
   a {
     text-decoration: none;
     color:black;
