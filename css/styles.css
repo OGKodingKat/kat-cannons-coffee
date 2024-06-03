@@ -150,6 +150,7 @@ footer img {
     grid-template-columns: 1fr;
     gap: 1rem;
 }
+
 .burger {
   display: block;
 }
@@ -183,8 +184,6 @@ footer img {
   }
   button {
     position:relative;
-    right:15px;
-    top:158px;
     background-color:#06327c;
     color:white;
     
@@ -205,6 +204,9 @@ footer img {
   }
   .burger {
     display: none;
+  }
+  ul {
+    flex-direction:row;
   }
 }
 
