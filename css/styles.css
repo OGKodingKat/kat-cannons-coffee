@@ -63,7 +63,9 @@ header {
   flex-flow: row;
   justify-content: center;
 }
-
+.navlink {
+  margin-right: 10px;
+}
 header img {
   padding: 0.5rem;
 }
@@ -235,57 +237,3 @@ footer img {
     gap: 1rem;
   }
 }
-/* .page-wrapper {
-  background-color: var(--catalina);
-  text-align: center;
-  padding: 10%;
-}
-form {
-  background-color: white;
-  text-align: left;
-  color: var(--catalina);
-  padding: 2rem;
-  border-radius: 10px;
-  width: 225px;
-  margin-top: 1rem;
-}
-.formWrapper {
-  display: flex;
-  justify-content: center;
-}
-input[type="text"] {
-  width: 100%;
-  max-width: 136px;
-}
-
-.requiredFields {
-  display: flex;
-  justify-content: space-between;
-}
-
-fieldset {
-  border: none;
-}
-h2 {
-  margin: 0;
-  color: white;
-}
-p {
-  margin: 0;
-  color: white;
-}
-.required {
-  color: var(--catalina);
-}
-button {
-  background-color: var(--catalina);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 0.5rem;
-  margin: 1rem;
-}
-.button-container {
-  display: flex;
-  justify-content: center;
-} */
